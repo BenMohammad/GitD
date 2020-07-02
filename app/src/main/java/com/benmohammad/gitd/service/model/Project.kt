@@ -27,6 +27,8 @@ data class Project(
     var has_wiki: Boolean,
     var has_pages: Boolean,
     var forks_count: Int,
+    var open_issues_count: Int,
+    var forks: Int,
     var open_issues: Int,
     var watchers: Int,
     var default_branch: String
